@@ -31,12 +31,19 @@ jobs:
           chmod 600 ~/.ssh/deploy_key
           ssh-keyscan -H "$DEPLOY_HOST" >> ~/.ssh/known_hosts
 
+      - name: Check server login
+        env:
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+        run: |
+          ssh -i ~/.ssh/deploy_key -o IdentitiesOnly=yes "$DEPLOY_USER@$DEPLOY_HOST" "test -w /var/www/jisutech.space"
+
       - name: Sync static files
         env:
           DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
           DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
         run: |
-          rsync -az --delete \
+          rsync -rltz --delete --no-owner --no-group \
             -e "ssh -i ~/.ssh/deploy_key -o IdentitiesOnly=yes" \
             index.html styles.css app.js favicon.svg assets \
             "$DEPLOY_USER@$DEPLOY_HOST:/var/www/jisutech.space/"

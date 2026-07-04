@@ -6,11 +6,11 @@
     <title>即宿科技 - 今夜有房</title>
     <meta
       name="description"
-      content="即宿科技旗下今夜有房，面向当天临期酒店库存，为普通订房用户匹配当晚高性价比房间，也帮助酒店经营者清理尾房。"
+      content="即宿科技旗下今夜有房，面向普通订房用户匹配当晚尾房好价，也帮助酒店经营者清理临期库存。"
     >
-    <meta name="theme-color" content="#f7f8f5">
+    <meta name="theme-color" content="#10131b">
     <meta property="og:title" content="即宿科技 - 今夜有房">
-    <meta property="og:description" content="今晚订房更省心。按位置、预算和房型偏好筛出当晚可住的尾房好价。">
+    <meta property="og:description" content="今晚订房，先看尾房好价。按位置、预算和房型偏好筛出当晚可住房间。">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://jisutech.space/">
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -19,169 +19,151 @@
   <body>
     <a class="skip-link" href="#main">跳到主要内容</a>
 
-    <header class="site-header" data-header>
-      <a class="brand" href="#top" aria-label="即宿科技首页">
-        <span class="brand-mark">即</span>
-        <span>
-          <strong>即宿科技</strong>
-          <small>今夜有房</small>
-        </span>
-      </a>
+    <nav class="floating-nav" aria-label="页面导航">
+      <a href="#work" data-nav-link>用户</a>
+      <a href="#rules" data-nav-link>规则</a>
+      <a href="#hotels" data-nav-link>酒店</a>
+      <a href="#contact" data-nav-link>联系</a>
+    </nav>
 
-      <button class="menu-button" type="button" data-menu-button aria-expanded="false" aria-controls="site-nav">
-        <span></span>
-        <span></span>
-      </button>
+    <header class="site-header hero" id="top">
+      <div class="hero-bg" aria-hidden="true">
+        <img src="assets/hero-hotel-lobby.png" alt="">
+      </div>
 
-      <nav class="site-nav" id="site-nav" data-nav>
-        <a href="#for-users">用户订房</a>
-        <a href="#rules">规则透明</a>
-        <a href="#for-hotels">酒店合作</a>
-        <a href="#company">公司信息</a>
-      </nav>
+      <div class="hero-brand">
+        <a class="brand-lockup" href="#top" aria-label="即宿科技首页">
+          <span class="brand-mark">即</span>
+          <span>即宿科技</span>
+        </a>
+        <p>今夜有房</p>
+      </div>
 
-      <a class="header-cta" href="#miniapp">扫码体验</a>
+      <div class="hero-copy">
+        <p class="hero-line">今晚订房</p>
+        <p class="hero-line muted">先看尾房好价</p>
+      </div>
+
+      <div class="hero-note">
+        <p>当天可住</p>
+        <p class="muted">位置、预算、房型偏好</p>
+      </div>
     </header>
 
     <main id="main">
-      <section class="hero" id="top">
-        <div class="hero-copy">
-          <p class="kicker">今夜有房</p>
-          <h1>今晚订房，先看尾房好价</h1>
-          <p class="hero-lede">按位置、预算和房型偏好筛选，当天可住，规则清楚，到店入住。</p>
-          <div class="hero-actions" aria-label="主要行动">
-            <a class="button button-primary" href="#miniapp">扫码体验小程序</a>
-            <a class="button button-secondary" href="#for-hotels">酒店合作</a>
-          </div>
-        </div>
-
-        <div class="hero-media" aria-label="酒店大堂中使用手机订房的用户场景">
-          <img src="assets/hero-hotel-lobby.png" alt="用户在酒店大堂用手机确认当晚订房信息">
-        </div>
+      <section class="statement-section" id="work">
+        <h1>
+          <span>今夜有房服务普通订房用户。</span>用更短路径匹配当晚可住的尾房好价，规则清楚，房费到店付。
+        </h1>
       </section>
 
-      <section class="signal-band" aria-label="服务信号">
-        <div>
+      <section class="signal-rail" aria-label="产品信号">
+        <article>
           <strong>普通订房用户</strong>
-          <span>更快筛到今晚可住的房间</span>
-        </div>
-        <div>
+          <span>当天临近入住时，快速筛出可选房间。</span>
+        </article>
+        <article>
+          <strong>位置 + 预算</strong>
+          <span>先定需求，再看匹配结果。</span>
+        </article>
+        <article>
+          <strong>信息服务费</strong>
+          <span>线上确认意向，房费到店支付。</span>
+        </article>
+        <article>
           <strong>酒店经营者</strong>
-          <span>临期尾房可控去化</span>
+          <span>可控清理临期尾房，不公开破价。</span>
+        </article>
+      </section>
+
+      <section class="split-claim">
+        <div class="claim-copy">
+          <h2>
+            <span>不是传统 OTA 的长列表。</span>今夜有房先理解今晚要住哪里、预算多少、想要什么房型。
+          </h2>
         </div>
-        <div>
-          <strong>即宿科技</strong>
-          <span>库存撮合与履约协同</span>
+        <div class="claim-panel">
+          <p>用户每批查看少量匹配房间，减少反复比价。</p>
+          <p>订单确认后展示酒店信息与订单码，到店完成核验。</p>
         </div>
       </section>
 
-      <section class="section user-section" id="for-users">
-        <div class="section-heading">
-          <h2>把订房决策压缩到几个关键条件</h2>
-          <p>不从一长串酒店里反复比较，而是先说清楚今晚住哪里、预算多少、想要什么房型。</p>
+      <section class="rules-stage" id="rules">
+        <div class="rules-title">
+          <p>规则透明</p>
+          <h2>低价感可以轻松，履约规则必须明确。</h2>
         </div>
 
-        <div class="user-grid">
-          <article class="feature-tile feature-main">
-            <span class="tile-label">位置 + 预算</span>
-            <h3>先定需求，再看可选房间</h3>
-            <p>用户用地图选点、半径、价格档位、床型和窗型偏好筛选，每批最多展示 3 个房间。</p>
-          </article>
-          <article class="feature-tile image-tile" aria-label="手机订房界面氛围图">
-            <div class="phone-card">
-              <span>今晚入住</span>
-              <strong>大床 · 有窗</strong>
-              <em>到店付房费</em>
-            </div>
-          </article>
-          <article class="feature-tile">
-            <h3>用可控随机性换性价比</h3>
-            <p>适合价格敏感、接受一定灵活度的年轻用户和轻度品质用户。</p>
-          </article>
-          <article class="feature-tile accent-tile">
-            <h3>付服务费后锁定库存</h3>
-            <p>线上支付信息服务费确认意向，订单生效后到店支付全额房费。</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section flow-section">
-        <div class="flow-panel">
-          <div class="section-heading compact">
-            <h2>四步完成当晚订房</h2>
-            <p>路径尽量短，关键节点都给用户明确预期。</p>
-          </div>
-
-          <ol class="flow-list">
-            <li>
-              <span>填写需求</span>
-              <p>选择城市、位置半径、价格档位、床型和窗型。</p>
-            </li>
-            <li>
-              <span>查看房间</span>
-              <p>每批展示少量匹配结果，减少反复比价成本。</p>
-            </li>
-            <li>
-              <span>锁定订单</span>
-              <p>支付信息服务费后，库存锁定并展示酒店信息与订单码。</p>
-            </li>
-            <li>
-              <span>到店入住</span>
-              <p>出示订单码和手机尾号，酒店核验后前台收取房费。</p>
-            </li>
-          </ol>
-        </div>
-      </section>
-
-      <section class="section rules-section" id="rules">
-        <div class="rules-copy">
-          <h2>低价不是噱头，规则先说清楚</h2>
-          <p>今夜有房把平台服务费和酒店房费分开，尽量减少用户误解，也保护酒店公开价盘。</p>
-        </div>
-
-        <div class="rules-grid">
+        <div class="rules-stack">
           <article>
-            <strong>16:00</strong>
+            <span>16:00</span>
             <h3>当天尾房释放</h3>
             <p>合作酒店每天固定时间放出当日可售尾房库存。</p>
           </article>
           <article>
-            <strong>15 分钟</strong>
+            <span>15 分钟</span>
             <h3>确认后可取消窗口</h3>
             <p>订单确认后 15 分钟内可按规则取消并退还信息服务费。</p>
           </article>
           <article>
-            <strong>分离支付</strong>
-            <h3>服务费线上付，房费到店付</h3>
+            <span>到店付房费</span>
+            <h3>线上服务费与房费分离</h3>
             <p>平台收取信息服务费，住宿房费由用户在酒店前台支付。</p>
           </article>
         </div>
       </section>
 
-      <section class="section hotel-section" id="for-hotels">
-        <div class="hotel-card">
-          <div>
-            <p class="kicker">酒店经营者</p>
-            <h2>清理临期尾房，不公开打乱 OTA 价盘</h2>
-            <p>酒店提前维护 4 种固定 SKU 的价格和库存，用户支付服务费后订单直接生效，酒店侧专注核验与履约。</p>
-          </div>
+      <section class="process-section">
+        <div class="section-kicker">How it works</div>
+        <ol class="process-list">
+          <li>
+            <span>填写需求</span>
+            <p>选择城市、位置半径、价格档位、床型和窗型。</p>
+          </li>
+          <li>
+            <span>查看房间</span>
+            <p>每批展示少量匹配结果，让选择更快。</p>
+          </li>
+          <li>
+            <span>锁定订单</span>
+            <p>支付信息服务费后锁定库存，生成订单码。</p>
+          </li>
+          <li>
+            <span>到店入住</span>
+            <p>出示订单码和手机尾号，酒店核验后收取房费。</p>
+          </li>
+        </ol>
+      </section>
 
-          <ul class="hotel-points" aria-label="酒店合作价值">
-            <li>当日库存 16:00 后进入可售池</li>
-            <li>大床/双床与有窗/无窗固定 SKU</li>
-            <li>订单码与手机尾号辅助前台核验</li>
-            <li>到店收取全额房费，账务边界清楚</li>
-          </ul>
+      <section class="hotel-stage" id="hotels">
+        <div class="hotel-bg" aria-hidden="true"></div>
+        <div class="hotel-title">
+          <p>酒店合作</p>
+          <h2>清掉临期尾房，同时保护公开价格体系。</h2>
+        </div>
+        <div class="hotel-panels">
+          <article>
+            <h3>固定 SKU</h3>
+            <p>大床、双床、有窗、无窗四类组合，库存维护更轻。</p>
+          </article>
+          <article>
+            <h3>直接成交</h3>
+            <p>库存已释放时，用户付服务费即锁房，酒店侧专注履约。</p>
+          </article>
+          <article>
+            <h3>前台核验</h3>
+            <p>订单码和手机尾号辅助核验，房费仍由酒店到店收取。</p>
+          </article>
         </div>
       </section>
 
-      <section class="section company-section" id="company">
-        <div class="company-copy">
-          <h2>由西安即宿信息科技有限公司运营</h2>
-          <p>官网备案名称为即宿科技，域名为 jisutech.space。我们聚焦酒店尾房库存撮合、用户订房体验和线下履约协同。</p>
-        </div>
+      <section class="company-section">
+        <div class="section-kicker">Company</div>
+        <h2>
+          <span>即宿科技运营今夜有房。</span>我们聚焦酒店尾房库存撮合、用户订房体验和线下履约协同。
+        </h2>
 
-        <dl class="company-list">
+        <dl class="company-grid">
           <div>
             <dt>公司名称</dt>
             <dd>西安即宿信息科技有限公司</dd>
@@ -195,46 +177,37 @@
             <dd>jisutech.space</dd>
           </div>
           <div>
-            <dt>产品项目</dt>
-            <dd>今夜有房小程序</dd>
+            <dt>ICP 备案号</dt>
+            <dd>暂无</dd>
           </div>
         </dl>
       </section>
 
-      <section class="conversion-section" id="miniapp">
-        <div class="conversion-copy">
-          <h2>今晚有订房需求，先从小程序开始</h2>
-          <p>小程序二维码、酒店入驻电话和商务邮箱可在正式上线前替换为真实信息。</p>
-        </div>
-
-        <div class="conversion-actions">
-          <div class="qr-box" aria-label="小程序二维码占位">
-            <span>小程序码</span>
+      <section class="contact-section" id="contact">
+        <div class="contact-grid">
+          <div>
+            <p class="section-kicker">Mini Program</p>
+            <h2>小程序码暂无</h2>
+            <p>小程序码上线后将在此处接入。当前官网先用于品牌展示、产品说明和商务沟通。</p>
           </div>
-          <form class="join-form" data-form>
-            <label>
-              <span>酒店名称</span>
-              <input name="hotel" type="text" autocomplete="organization" placeholder="例如：雁塔区某酒店">
-            </label>
-            <label>
-              <span>联系电话</span>
-              <input name="phone" type="tel" autocomplete="tel" placeholder="用于商务跟进">
-            </label>
-            <button class="button button-primary" type="submit">提交合作意向</button>
-            <p class="form-status" data-form-status role="status" aria-live="polite"></p>
-          </form>
-          <address class="contact-box">
-            <strong>商务联系</strong>
-            <a href="mailto:business@jisutech.space">business@jisutech.space</a>
-            <span>微信/电话待上线前补充</span>
-          </address>
+          <div>
+            <p class="section-kicker">Business</p>
+            <h2>商务联系</h2>
+            <a class="email-link" href="mailto:jisugroup@126.com">jisugroup@126.com</a>
+            <p>合作表单暂无。商务沟通请使用邮箱。</p>
+          </div>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <p>© <span data-year></span> 西安即宿信息科技有限公司</p>
-      <p>即宿科技 · jisutech.space · ICP 备案信息待接入</p>
+      <div class="footer-meta">
+        <strong>即宿科技</strong>
+        <span>西安即宿信息科技有限公司</span>
+        <span>jisutech.space</span>
+        <span>ICP 备案号：暂无</span>
+      </div>
+      <p>今晚有房</p>
     </footer>
 
     <script src="app.js" defer></script>

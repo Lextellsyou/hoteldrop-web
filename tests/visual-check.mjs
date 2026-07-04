@@ -13,18 +13,14 @@ async function inspectViewport(name, width, height) {
   await page.goto("http://localhost:4173/", { waitUntil: "networkidle" });
   const data = await page.evaluate(() => {
     const header = document.querySelector(".site-header").getBoundingClientRect();
-    const nav = document.querySelector(".site-nav").getBoundingClientRect();
-    const menu = document.querySelector("[data-menu-button]").getBoundingClientRect();
-    const heroImage = document.querySelector(".hero-media").getBoundingClientRect();
-    const cta = document.querySelector(".button-primary").getBoundingClientRect();
+    const floatingNav = document.querySelector(".floating-nav").getBoundingClientRect();
+    const statement = document.querySelector(".statement-section h1").getBoundingClientRect();
     return {
       innerWidth,
       bodyWidth: document.body.scrollWidth,
       headerHeight: Math.round(header.height),
-      navHeight: Math.round(nav.height),
-      menuWidth: Math.round(menu.width),
-      heroImageWidth: Math.round(heroImage.width),
-      ctaWidth: Math.round(cta.width)
+      floatingNavWidth: Math.round(floatingNav.width),
+      statementWidth: Math.round(statement.width)
     };
   });
   await page.screenshot({ path: `tmp-${name}.png`, fullPage: true });
@@ -47,6 +43,6 @@ if (mobile.bodyWidth > mobile.innerWidth) {
   throw new Error("Mobile has horizontal overflow");
 }
 
-if (mobile.menuWidth < 40) {
-  throw new Error("Mobile menu button is not visible");
+if (mobile.floatingNavWidth < 220) {
+  throw new Error("Mobile floating nav is not visible");
 }

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dayy Style Playground</title>
+    <style>
+      :root {
+        --ink: #10131b;
+        --soft: #f3f3f3;
+        --muted: rgba(16, 19, 27, 0.56);
+        --accent: #ff7b2f;
+      }
+      body { margin: 0; font-family: system-ui, -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif; color: var(--ink); }
+      section { padding: clamp(40px, 8vw, 120px); }
+      .hero { min-height: 70vh; display: flex; align-items: center; justify-content: space-between; color: white; background: radial-gradient(circle at 60% 90%, var(--accent), transparent 30%), linear-gradient(180deg, #0d1018, #26304f); }
+      .statement { font-size: clamp(32px, 5vw, 72px); line-height: 1.05; font-weight: 500; max-width: 980px; }
+      .statement span { color: var(--muted); }
+      .tiles { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+      .tile { min-height: 160px; border-radius: 12px; background: var(--soft); display: grid; place-items: center; font-weight: 800; }
+      .nav { position: fixed; bottom: 28px; left: 50%; transform: translateX(-50%); border-radius: 999px; background: rgba(243,243,243,.82); backdrop-filter: blur(18px); padding: 10px 18px; display: flex; gap: 22px; }
+      @media (max-width: 720px) { .tiles { grid-template-columns: 1fr 1fr; } }
+    </style>
+  </head>
+  <body>
+    <nav class="nav"><a>Work</a><a>Services</a><a>About</a><a>Contact</a></nav>
+    <section class="hero"><strong>DAYY style</strong><p>Atmosphere first<br>System second</p></section>
+    <section><p class="statement">A large editorial claim carries the page. <span>Subtle text creates depth without adding decoration.</span></p></section>
+    <section class="tiles"><div class="tile">Logo</div><div class="tile">Signal</div><div class="tile">Tile</div><div class="tile">System</div></section>
+  </body>
+</html>

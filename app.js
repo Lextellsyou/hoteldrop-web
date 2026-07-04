@@ -1,42 +1,28 @@
-const menuButton = document.querySelector("[data-menu-button]");
-const nav = document.querySelector("[data-nav]");
-const year = document.querySelector("[data-year]");
-const form = document.querySelector("[data-form]");
-const formStatus = document.querySelector("[data-form-status]");
+const navLinks = [...document.querySelectorAll("[data-nav-link]")];
+const sections = navLinks
+  .map((link) => document.querySelector(link.getAttribute("href")))
+  .filter(Boolean);
 
-if (year) {
-  year.textContent = String(new Date().getFullYear());
+if ("IntersectionObserver" in window && sections.length > 0) {
+  const observer = new IntersectionObserver(
+    (entries) => {
+      const visible = entries
+        .filter((entry) => entry.isIntersecting)
+        .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+
+      if (!visible) return;
+
+      navLinks.forEach((link) => {
+        link.classList.toggle("is-active", link.getAttribute("href") === `#${visible.target.id}`);
+      });
+    },
+    { rootMargin: "-35% 0px -45% 0px", threshold: [0.15, 0.35, 0.6] }
+  );
+
+  sections.forEach((section) => observer.observe(section));
 }
 
-if (menuButton && nav) {
-  menuButton.addEventListener("click", () => {
-    const isOpen = nav.classList.toggle("is-open");
-    document.body.classList.toggle("menu-open", isOpen);
-    menuButton.setAttribute("aria-expanded", String(isOpen));
-  });
-
-  nav.addEventListener("click", (event) => {
-    if (event.target instanceof HTMLAnchorElement) {
-      nav.classList.remove("is-open");
-      document.body.classList.remove("menu-open");
-      menuButton.setAttribute("aria-expanded", "false");
-    }
-  });
-}
-
-if (form && formStatus) {
-  form.addEventListener("submit", (event) => {
-    event.preventDefault();
-    const data = new FormData(form);
-    const hotel = String(data.get("hotel") || "").trim();
-    const phone = String(data.get("phone") || "").trim();
-
-    if (!hotel || !phone) {
-      formStatus.textContent = "请留下酒店名称和联系电话。";
-      return;
-    }
-
-    formStatus.textContent = "已记录合作意向，上线后可接入真实提交接口。";
-    form.reset();
-  });
-}
+document.addEventListener("keydown", (event) => {
+  if (event.key !== "Tab") return;
+  document.documentElement.classList.add("keyboard-user");
+});

@@ -21,9 +21,12 @@ const requiredHtml = [
   "今夜有房",
   "西安即宿信息科技有限公司",
   "jisutech.space",
-  "扫码体验小程序",
+  "小程序码暂无",
   "酒店合作",
   "商务联系",
+  "jisugroup@126.com",
+  "合作表单暂无",
+  "ICP 备案号",
   "16:00",
   "15 分钟",
   "信息服务费",
@@ -38,9 +41,12 @@ for (const text of requiredHtml) {
 
 assert.match(html, /<meta\s+name="description"/s, "SEO description should exist");
 assert.match(html, /<main id="main"/, "main landmark should exist");
-assert.match(html, /alt="[^"]+"/, "images should include alt text");
+assert.match(html, /<img[^>]+alt="/, "images should include alt attribute");
 assert.equal(html.includes("—"), false, "visible content should not use em dash");
 assert.equal(html.includes("–"), false, "visible content should not use en dash");
+assert.equal(html.includes("business@jisutech.space"), false, "old email should be removed");
+assert.equal(html.includes("微信"), false, "wechat placeholder should be removed");
+assert.equal(html.includes("电话"), false, "phone placeholder should be removed");
 assert.equal(/\.hero\b/.test(css), true, "hero styles should exist");
 assert.equal(/prefers-reduced-motion/.test(css), true, "reduced motion styles should exist");
 assert.equal(/addEventListener/.test(js), true, "small interactions should be wired");

@@ -1,0 +1,1340 @@
+{
+  "title": "DAYY® – Let's rethink tomorrow.",
+  "url": "https://www.dayy.com/en",
+  "bodyClass": "text-dark font-sans text-base antialiased ftsystemblank_3fa858a7-module__LOfOQW__variable ftsystemmono_4dab9dcb-module__8eiyqG__variable",
+  "colors": [
+    [
+      "lab(8.93538 -0.97698 -6.5133)",
+      916
+    ],
+    [
+      "lab(8.93538 -0.97698 -6.5133 / 0.5)",
+      128
+    ],
+    [
+      "rgb(255, 255, 255)",
+      57
+    ],
+    [
+      "lab(95.36 0 0)",
+      24
+    ],
+    [
+      "oklab(0.215499 -0.00449137 -0.0176318 / 0.05)",
+      21
+    ],
+    [
+      "lab(8.93538 -0.97698 -6.5133 / 0.35)",
+      14
+    ],
+    [
+      "oklab(0.215499 -0.00449137 -0.0176318 / 0.8)",
+      8
+    ],
+    [
+      "oklab(0.999994 0.0000455678 0.0000200868 / 0.5)",
+      6
+    ],
+    [
+      "lab(97.68 -0.0000298023 0.0000119209)",
+      6
+    ],
+    [
+      "oklab(0 0 0 / 0.05)",
+      6
+    ],
+    [
+      "oklab(0 0 0 / 0.1)",
+      4
+    ],
+    [
+      "rgb(0, 0, 0)",
+      2
+    ],
+    [
+      "lab(3.56207 -0.211582 -1.6697)",
+      2
+    ],
+    [
+      "oklab(0.215499 -0.00449137 -0.0176318 / 0.5)",
+      2
+    ],
+    [
+      "oklab(0.959998 -0.00000950694 0.000022471 / 0.7)",
+      1
+    ]
+  ],
+  "fonts": [
+    [
+      "ftSystemBlank, \"ftSystemBlank Fallback\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      609
+    ],
+    [
+      "ftSystemMono, \"ftSystemMono Fallback\", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+      39
+    ]
+  ],
+  "radii": [
+    [
+      "0px",
+      508
+    ],
+    [
+      "12px",
+      64
+    ],
+    [
+      "8px",
+      58
+    ],
+    [
+      "12px 12px 0px 0px",
+      10
+    ],
+    [
+      "3.35544e+07px",
+      8
+    ]
+  ],
+  "transitions": [
+    "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.15s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1), transform 0.15s cubic-bezier(0.4, 0, 0.2, 1), translate 0.15s cubic-bezier(0.4, 0, 0.2, 1), scale 0.15s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.15s cubic-bezier(0.4, 0, 0.2, 1), filter 0.15s cubic-bezier(0.4, 0, 0.2, 1), -webkit-backdrop-filter 0.15s cubic-bezier(0.4, 0, 0.2, 1), backdrop-filter 0.15s cubic-bezier(0.4, 0, 0.2, 1), display 0.15s cubic-bezier(0.4, 0, 0.2, 1), content-visibility 0.15s cubic-bezier(0.4, 0, 0.2, 1), overlay 0.15s cubic-bezier(0.4, 0, 0.2, 1), pointer-events 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+    "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+    "opacity 1s cubic-bezier(0.4, 0, 0.2, 1)",
+    "color 0.5s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.5s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.5s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.5s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.5s cubic-bezier(0.4, 0, 0.2, 1), fill 0.5s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.5s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.5s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.5s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.5s cubic-bezier(0.4, 0, 0.2, 1)",
+    "0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+    "transform 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955), translate 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955), scale 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955), rotate 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955)",
+    "color 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), fill 0.3s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.3s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1), transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), translate 0.3s cubic-bezier(0.4, 0, 0.2, 1), scale 0.3s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.3s cubic-bezier(0.4, 0, 0.2, 1), filter 0.3s cubic-bezier(0.4, 0, 0.2, 1), -webkit-backdrop-filter 0.3s cubic-bezier(0.4, 0, 0.2, 1), backdrop-filter 0.3s cubic-bezier(0.4, 0, 0.2, 1), display 0.3s cubic-bezier(0.4, 0, 0.2, 1), content-visibility 0.3s cubic-bezier(0.4, 0, 0.2, 1), overlay 0.3s cubic-bezier(0.4, 0, 0.2, 1), pointer-events 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+    "transform"
+  ],
+  "textSamples": [
+    {
+      "tag": "a",
+      "className": "mono-text fixed top-2 left-1/2 z-40 -translate-x-1/2 -translate-y-full rounded-full bg-white px-4 py-2 font-mono opacity-0 ring-1 ring-white ring-offset-2 ring-offset-black transition outline-none focus-visible:translate-y-0 focus-visible:opacity-100",
+      "text": "Skip to main content",
+      "fontSize": "11px",
+      "fontWeight": "500",
+      "lineHeight": "normal",
+      "letterSpacing": "0.88px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "nav",
+      "className": "fixed bottom-7 left-1/2 isolate z-40 -translate-x-1/2 overflow-hidden rounded-full bg-gray-200/70 py-1.5 pr-5 pl-2.5 text-[0.9375rem] leading-[125%] font-medium tracking-[-0.00938rem] backdrop-blur-xl",
+      "text": "WorkServicesAboutContact",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "lineHeight": "18.75px",
+      "letterSpacing": "-0.15008px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "div",
+      "className": "-mr-4 -ml-1.5 pr-4 pl-1.5",
+      "text": "WorkServicesAboutContact",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "lineHeight": "18.75px",
+      "letterSpacing": "-0.15008px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "ul",
+      "className": "flex",
+      "text": "WorkServicesAboutContact",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "lineHeight": "18.75px",
+      "letterSpacing": "-0.15008px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "header",
+      "className": "bg-darker relative h-[calc(100svh-6.75rem)] md:h-[85vh] md:min-h-180",
+      "text": "Let’s rethink tomorrowStrategy. Design. Technology.",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "27.553px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "div",
+      "className": "mx-auto w-full max-w-[104.5rem] px-4 sm:px-16 md:px-9 relative z-20 flex h-full items-center justify-between",
+      "text": "Let’s rethink tomorrowStrategy. Design. Technology.",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "27.553px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "div",
+      "className": "text-right text-xs text-white sm:text-base",
+      "text": "Let’s rethink tomorrowStrategy. Design. Technology.",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "27.553px",
+      "letterSpacing": "0.093312px",
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "p",
+      "className": "",
+      "text": "Let’s rethink tomorrow",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "27.553px",
+      "letterSpacing": "0.093312px",
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "p",
+      "className": "-mt-1 text-white/50",
+      "text": "Strategy. Design. Technology.",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "27.553px",
+      "letterSpacing": "0.093312px",
+      "color": "oklab(0.999994 0.0000455678 0.0000200868 / 0.5)"
+    },
+    {
+      "tag": "div",
+      "className": "isolate flex overflow-hidden pt-10 pb-15 md:py-20",
+      "text": "Your 0 to 1 Partner for Digital Innovation. Blending consultancy expertise with agency craft and creativity, we lead ambitious companies from insight to impact—fast.",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "27.553px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "section",
+      "className": "mx-auto w-full max-w-[104.5rem] px-4 sm:px-16 md:px-9 shrink-0",
+      "text": "Your 0 to 1 Partner for Digital Innovation. Blending consultancy expertise with agency craft and creativity, we lead ambitious companies from insight to impact—fast.",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "27.553px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "h1",
+      "className": "text-dark-subtle font-medium text-2xl lg:text-3xl max-w-[52.25rem]",
+      "text": "Your 0 to 1 Partner for Digital Innovation. Blending consultancy expertise with agency craft and creativity, we lead ambitious companies from insight to impact—fast.",
+      "fontSize": "33.4731px",
+      "fontWeight": "500",
+      "lineHeight": "39.4844px",
+      "letterSpacing": "-0.28px",
+      "color": "lab(8.93538 -0.97698 -6.5133 / 0.5)"
+    },
+    {
+      "tag": "span",
+      "className": "transition-colors duration-500 text-dark",
+      "text": "Your 0 to 1 Partner for Digital Innovation.",
+      "fontSize": "33.4731px",
+      "fontWeight": "500",
+      "lineHeight": "39.4844px",
+      "letterSpacing": "-0.28px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "h2",
+      "className": "text-dark-subtle font-medium text-xl lg:text-2xl max-w-[52.25rem]",
+      "text": "We orchestrate strategy, design, and technology to create digital experiences that connect with millions and give you the edge that sets you apart.",
+      "fontSize": "26.7373px",
+      "fontWeight": "500",
+      "lineHeight": "31.5312px",
+      "letterSpacing": "normal",
+      "color": "lab(8.93538 -0.97698 -6.5133 / 0.5)"
+    },
+    {
+      "tag": "span",
+      "className": "transition-colors duration-500 text-dark",
+      "text": "We orchestrate strategy, design, and technology",
+      "fontSize": "26.7373px",
+      "fontWeight": "500",
+      "lineHeight": "31.5312px",
+      "letterSpacing": "normal",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "a",
+      "className": "group block rounded-t-xl text-left outline-offset-2 outline-black lg:col-span-2",
+      "text": "Red BullA global Platform built to Scale, Evolve, and Perform",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "27.553px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "span",
+      "className": "text-dark-subtle group-focus-visible:text-dark group-hover:text-dark block leading-tight transition-colors",
+      "text": "A global Platform built to Scale, Evolve, and Perform",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "22.9608px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133 / 0.5)"
+    },
+    {
+      "tag": "a",
+      "className": "group block rounded-t-xl text-left outline-offset-2 outline-black",
+      "text": "The OrganicsTranslating a refreshing identity into a bold platform",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "27.553px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "span",
+      "className": "mt-4 block",
+      "text": "The Organics",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "27.553px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "span",
+      "className": "text-dark-subtle group-focus-visible:text-dark group-hover:text-dark block leading-tight transition-colors",
+      "text": "Translating a refreshing identity into a bold platform",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "22.9608px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133 / 0.5)"
+    },
+    {
+      "tag": "a",
+      "className": "group block rounded-t-xl text-left outline-offset-2 outline-black",
+      "text": "VolvoRedefining how people experience Insurance",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "27.553px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "span",
+      "className": "text-dark-subtle group-focus-visible:text-dark group-hover:text-dark block leading-tight transition-colors",
+      "text": "Redefining how people experience Insurance",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "22.9608px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133 / 0.5)"
+    },
+    {
+      "tag": "a",
+      "className": "group block rounded-t-xl text-left outline-offset-2 outline-black",
+      "text": "Athlete Performance HubDecode Sporting Success",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "27.553px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "span",
+      "className": "mt-4 block",
+      "text": "Athlete Performance Hub",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "27.553px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "span",
+      "className": "text-dark-subtle group-focus-visible:text-dark group-hover:text-dark block leading-tight transition-colors",
+      "text": "Decode Sporting Success",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "22.9608px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133 / 0.5)"
+    },
+    {
+      "tag": "a",
+      "className": "group block rounded-t-xl text-left outline-offset-2 outline-black",
+      "text": "Isar AerospaceLaunching a Brand Built for Orbit",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "27.553px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "span",
+      "className": "mt-4 block",
+      "text": "Isar Aerospace",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "27.553px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "span",
+      "className": "text-dark-subtle group-focus-visible:text-dark group-hover:text-dark block leading-tight transition-colors",
+      "text": "Launching a Brand Built for Orbit",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "22.9608px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133 / 0.5)"
+    },
+    {
+      "tag": "a",
+      "className": "group block rounded-t-xl text-left outline-offset-2 outline-black",
+      "text": "Alpha TauriDesigning the Interface of Wearable Intelligence",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "27.553px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "span",
+      "className": "mt-4 block",
+      "text": "Alpha Tauri",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "27.553px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "span",
+      "className": "text-dark-subtle group-focus-visible:text-dark group-hover:text-dark block leading-tight transition-colors",
+      "text": "Designing the Interface of Wearable Intelligence",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "22.9608px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133 / 0.5)"
+    },
+    {
+      "tag": "a",
+      "className": "group block rounded-t-xl text-left outline-offset-2 outline-black lg:col-span-2",
+      "text": "ZEOSDesigning the Zalando E-Commerce Operating System",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "27.553px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "span",
+      "className": "text-dark-subtle group-focus-visible:text-dark group-hover:text-dark block leading-tight transition-colors",
+      "text": "Designing the Zalando E-Commerce Operating System",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "22.9608px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133 / 0.5)"
+    },
+    {
+      "tag": "a",
+      "className": "group block rounded-t-xl text-left outline-offset-2 outline-black",
+      "text": "REWEDigital Convenience in your Pocket",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "27.553px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "span",
+      "className": "text-dark-subtle group-focus-visible:text-dark group-hover:text-dark block leading-tight transition-colors",
+      "text": "Digital Convenience in your Pocket",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "22.9608px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133 / 0.5)"
+    },
+    {
+      "tag": "a",
+      "className": "group block rounded-t-xl text-left outline-offset-2 outline-black",
+      "text": "Zalando PartnerBuilding Zalando’s partnership hub",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "27.553px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "span",
+      "className": "mt-4 block",
+      "text": "Zalando Partner",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "27.553px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "span",
+      "className": "text-dark-subtle group-focus-visible:text-dark group-hover:text-dark block leading-tight transition-colors",
+      "text": "Building Zalando’s partnership hub",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "22.9608px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133 / 0.5)"
+    },
+    {
+      "tag": "a",
+      "className": "group block rounded-t-xl text-left outline-offset-2 outline-black",
+      "text": "TNGTNG Technology Consulting – TAIA",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "27.553px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "span",
+      "className": "text-dark-subtle group-focus-visible:text-dark group-hover:text-dark block leading-tight transition-colors",
+      "text": "TNG Technology Consulting – TAIA",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "22.9608px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133 / 0.5)"
+    },
+    {
+      "tag": "p",
+      "className": "mono-text text-dark/80 mt-11 font-mono leading-tight lg:[@media(max-height:910px)]:mt-8",
+      "text": "Our Capabilities",
+      "fontSize": "11px",
+      "fontWeight": "500",
+      "lineHeight": "13.75px",
+      "letterSpacing": "0.88px",
+      "color": "oklab(0.215499 -0.00449137 -0.0176318 / 0.8)"
+    },
+    {
+      "tag": "ul",
+      "className": "mt-3.5 grid grid-cols-2 gap-1.5 text-xs leading-tight lg:gap-2 lg:[@media(max-height:910px)]:mt-2",
+      "text": "Business & Market ResearchData-Driven InsightsUX AuditsCustomer Journey MappingBrand Perception AnalysisTechnical Assessment",
+      "fontSize": "14.7363px",
+      "fontWeight": "400",
+      "lineHeight": "18.4204px",
+      "letterSpacing": "0.0736816px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "li",
+      "className": "before:bg-dark relative items-baseline gap-2 rounded-lg bg-gray-200 px-2.5 pt-1.5 pb-2 lg:flex lg:pt-2.5 lg:pb-3 lg:before:size-2 lg:before:shrink-0 lg:before:-translate-y-[20%] lg:before:rounded-full",
+      "text": "Business & Market Research",
+      "fontSize": "14.7363px",
+      "fontWeight": "400",
+      "lineHeight": "18.4204px",
+      "letterSpacing": "0.0736816px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "li",
+      "className": "before:bg-dark relative items-baseline gap-2 rounded-lg bg-gray-200 px-2.5 pt-1.5 pb-2 lg:flex lg:pt-2.5 lg:pb-3 lg:before:size-2 lg:before:shrink-0 lg:before:-translate-y-[20%] lg:before:rounded-full",
+      "text": "Data-Driven Insights",
+      "fontSize": "14.7363px",
+      "fontWeight": "400",
+      "lineHeight": "18.4204px",
+      "letterSpacing": "0.0736816px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "li",
+      "className": "before:bg-dark relative items-baseline gap-2 rounded-lg bg-gray-200 px-2.5 pt-1.5 pb-2 lg:flex lg:pt-2.5 lg:pb-3 lg:before:size-2 lg:before:shrink-0 lg:before:-translate-y-[20%] lg:before:rounded-full",
+      "text": "UX Audits",
+      "fontSize": "14.7363px",
+      "fontWeight": "400",
+      "lineHeight": "18.4204px",
+      "letterSpacing": "0.0736816px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "li",
+      "className": "before:bg-dark relative items-baseline gap-2 rounded-lg bg-gray-200 px-2.5 pt-1.5 pb-2 lg:flex lg:pt-2.5 lg:pb-3 lg:before:size-2 lg:before:shrink-0 lg:before:-translate-y-[20%] lg:before:rounded-full",
+      "text": "Customer Journey Mapping",
+      "fontSize": "14.7363px",
+      "fontWeight": "400",
+      "lineHeight": "18.4204px",
+      "letterSpacing": "0.0736816px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "li",
+      "className": "before:bg-dark relative items-baseline gap-2 rounded-lg bg-gray-200 px-2.5 pt-1.5 pb-2 lg:flex lg:pt-2.5 lg:pb-3 lg:before:size-2 lg:before:shrink-0 lg:before:-translate-y-[20%] lg:before:rounded-full",
+      "text": "Brand Perception Analysis",
+      "fontSize": "14.7363px",
+      "fontWeight": "400",
+      "lineHeight": "18.4204px",
+      "letterSpacing": "0.0736816px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "li",
+      "className": "before:bg-dark relative items-baseline gap-2 rounded-lg bg-gray-200 px-2.5 pt-1.5 pb-2 lg:flex lg:pt-2.5 lg:pb-3 lg:before:size-2 lg:before:shrink-0 lg:before:-translate-y-[20%] lg:before:rounded-full",
+      "text": "Technical Assessment",
+      "fontSize": "14.7363px",
+      "fontWeight": "400",
+      "lineHeight": "18.4204px",
+      "letterSpacing": "0.0736816px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "p",
+      "className": "mono-text text-dark/80 mt-11 font-mono leading-tight lg:[@media(max-height:910px)]:mt-8",
+      "text": "Our Capabilities",
+      "fontSize": "11px",
+      "fontWeight": "500",
+      "lineHeight": "13.75px",
+      "letterSpacing": "0.88px",
+      "color": "oklab(0.215499 -0.00449137 -0.0176318 / 0.8)"
+    },
+    {
+      "tag": "ul",
+      "className": "mt-3.5 grid grid-cols-2 gap-1.5 text-xs leading-tight lg:gap-2 lg:[@media(max-height:910px)]:mt-2",
+      "text": "CX & Product StrategyVision & RoadmappingValue Proposition DesignNorthstar Metric FrameworkBrand Strategy & PositioningTechnical Solution Design",
+      "fontSize": "14.7363px",
+      "fontWeight": "400",
+      "lineHeight": "18.4204px",
+      "letterSpacing": "0.0736816px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "li",
+      "className": "before:bg-dark relative items-baseline gap-2 rounded-lg bg-gray-200 px-2.5 pt-1.5 pb-2 lg:flex lg:pt-2.5 lg:pb-3 lg:before:size-2 lg:before:shrink-0 lg:before:-translate-y-[20%] lg:before:rounded-full",
+      "text": "CX & Product Strategy",
+      "fontSize": "14.7363px",
+      "fontWeight": "400",
+      "lineHeight": "18.4204px",
+      "letterSpacing": "0.0736816px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "li",
+      "className": "before:bg-dark relative items-baseline gap-2 rounded-lg bg-gray-200 px-2.5 pt-1.5 pb-2 lg:flex lg:pt-2.5 lg:pb-3 lg:before:size-2 lg:before:shrink-0 lg:before:-translate-y-[20%] lg:before:rounded-full",
+      "text": "Vision & Roadmapping",
+      "fontSize": "14.7363px",
+      "fontWeight": "400",
+      "lineHeight": "18.4204px",
+      "letterSpacing": "0.0736816px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "li",
+      "className": "before:bg-dark relative items-baseline gap-2 rounded-lg bg-gray-200 px-2.5 pt-1.5 pb-2 lg:flex lg:pt-2.5 lg:pb-3 lg:before:size-2 lg:before:shrink-0 lg:before:-translate-y-[20%] lg:before:rounded-full",
+      "text": "Value Proposition Design",
+      "fontSize": "14.7363px",
+      "fontWeight": "400",
+      "lineHeight": "18.4204px",
+      "letterSpacing": "0.0736816px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "li",
+      "className": "before:bg-dark relative items-baseline gap-2 rounded-lg bg-gray-200 px-2.5 pt-1.5 pb-2 lg:flex lg:pt-2.5 lg:pb-3 lg:before:size-2 lg:before:shrink-0 lg:before:-translate-y-[20%] lg:before:rounded-full",
+      "text": "Northstar Metric Framework",
+      "fontSize": "14.7363px",
+      "fontWeight": "400",
+      "lineHeight": "18.4204px",
+      "letterSpacing": "0.0736816px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "li",
+      "className": "before:bg-dark relative items-baseline gap-2 rounded-lg bg-gray-200 px-2.5 pt-1.5 pb-2 lg:flex lg:pt-2.5 lg:pb-3 lg:before:size-2 lg:before:shrink-0 lg:before:-translate-y-[20%] lg:before:rounded-full",
+      "text": "Brand Strategy & Positioning",
+      "fontSize": "14.7363px",
+      "fontWeight": "400",
+      "lineHeight": "18.4204px",
+      "letterSpacing": "0.0736816px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "li",
+      "className": "before:bg-dark relative items-baseline gap-2 rounded-lg bg-gray-200 px-2.5 pt-1.5 pb-2 lg:flex lg:pt-2.5 lg:pb-3 lg:before:size-2 lg:before:shrink-0 lg:before:-translate-y-[20%] lg:before:rounded-full",
+      "text": "Technical Solution Design",
+      "fontSize": "14.7363px",
+      "fontWeight": "400",
+      "lineHeight": "18.4204px",
+      "letterSpacing": "0.0736816px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "p",
+      "className": "mono-text text-dark/80 mt-11 font-mono leading-tight lg:[@media(max-height:910px)]:mt-8",
+      "text": "Our Capabilities",
+      "fontSize": "11px",
+      "fontWeight": "500",
+      "lineHeight": "13.75px",
+      "letterSpacing": "0.88px",
+      "color": "oklab(0.215499 -0.00449137 -0.0176318 / 0.8)"
+    },
+    {
+      "tag": "ul",
+      "className": "mt-3.5 grid grid-cols-2 gap-1.5 text-xs leading-tight lg:gap-2 lg:[@media(max-height:910px)]:mt-2",
+      "text": "UX & UI DesignInformation ArchitectureBrand & Visual DesignDesign SystemsContent StrategyAgile Software Engineering",
+      "fontSize": "14.7363px",
+      "fontWeight": "400",
+      "lineHeight": "18.4204px",
+      "letterSpacing": "0.0736816px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "li",
+      "className": "before:bg-dark relative items-baseline gap-2 rounded-lg bg-gray-200 px-2.5 pt-1.5 pb-2 lg:flex lg:pt-2.5 lg:pb-3 lg:before:size-2 lg:before:shrink-0 lg:before:-translate-y-[20%] lg:before:rounded-full",
+      "text": "UX & UI Design",
+      "fontSize": "14.7363px",
+      "fontWeight": "400",
+      "lineHeight": "18.4204px",
+      "letterSpacing": "0.0736816px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "li",
+      "className": "before:bg-dark relative items-baseline gap-2 rounded-lg bg-gray-200 px-2.5 pt-1.5 pb-2 lg:flex lg:pt-2.5 lg:pb-3 lg:before:size-2 lg:before:shrink-0 lg:before:-translate-y-[20%] lg:before:rounded-full",
+      "text": "Information Architecture",
+      "fontSize": "14.7363px",
+      "fontWeight": "400",
+      "lineHeight": "18.4204px",
+      "letterSpacing": "0.0736816px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "li",
+      "className": "before:bg-dark relative items-baseline gap-2 rounded-lg bg-gray-200 px-2.5 pt-1.5 pb-2 lg:flex lg:pt-2.5 lg:pb-3 lg:before:size-2 lg:before:shrink-0 lg:before:-translate-y-[20%] lg:before:rounded-full",
+      "text": "Brand & Visual Design",
+      "fontSize": "14.7363px",
+      "fontWeight": "400",
+      "lineHeight": "18.4204px",
+      "letterSpacing": "0.0736816px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "li",
+      "className": "before:bg-dark relative items-baseline gap-2 rounded-lg bg-gray-200 px-2.5 pt-1.5 pb-2 lg:flex lg:pt-2.5 lg:pb-3 lg:before:size-2 lg:before:shrink-0 lg:before:-translate-y-[20%] lg:before:rounded-full",
+      "text": "Design Systems",
+      "fontSize": "14.7363px",
+      "fontWeight": "400",
+      "lineHeight": "18.4204px",
+      "letterSpacing": "0.0736816px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "li",
+      "className": "before:bg-dark relative items-baseline gap-2 rounded-lg bg-gray-200 px-2.5 pt-1.5 pb-2 lg:flex lg:pt-2.5 lg:pb-3 lg:before:size-2 lg:before:shrink-0 lg:before:-translate-y-[20%] lg:before:rounded-full",
+      "text": "Content Strategy",
+      "fontSize": "14.7363px",
+      "fontWeight": "400",
+      "lineHeight": "18.4204px",
+      "letterSpacing": "0.0736816px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "li",
+      "className": "before:bg-dark relative items-baseline gap-2 rounded-lg bg-gray-200 px-2.5 pt-1.5 pb-2 lg:flex lg:pt-2.5 lg:pb-3 lg:before:size-2 lg:before:shrink-0 lg:before:-translate-y-[20%] lg:before:rounded-full",
+      "text": "Agile Software Engineering",
+      "fontSize": "14.7363px",
+      "fontWeight": "400",
+      "lineHeight": "18.4204px",
+      "letterSpacing": "0.0736816px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "p",
+      "className": "mono-text text-dark/80 mt-11 font-mono leading-tight lg:[@media(max-height:910px)]:mt-8",
+      "text": "Our Capabilities",
+      "fontSize": "11px",
+      "fontWeight": "500",
+      "lineHeight": "13.75px",
+      "letterSpacing": "0.88px",
+      "color": "oklab(0.215499 -0.00449137 -0.0176318 / 0.8)"
+    },
+    {
+      "tag": "ul",
+      "className": "mt-3.5 grid grid-cols-2 gap-1.5 text-xs leading-tight lg:gap-2 lg:[@media(max-height:910px)]:mt-2",
+      "text": "AI ConsultingUX/UI DeliveryProcess OptimizationPerformance & AnalyticsContinuous ImprovementChange Management",
+      "fontSize": "14.7363px",
+      "fontWeight": "400",
+      "lineHeight": "18.4204px",
+      "letterSpacing": "0.0736816px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "li",
+      "className": "before:bg-dark relative items-baseline gap-2 rounded-lg bg-gray-200 px-2.5 pt-1.5 pb-2 lg:flex lg:pt-2.5 lg:pb-3 lg:before:size-2 lg:before:shrink-0 lg:before:-translate-y-[20%] lg:before:rounded-full",
+      "text": "AI Consulting",
+      "fontSize": "14.7363px",
+      "fontWeight": "400",
+      "lineHeight": "18.4204px",
+      "letterSpacing": "0.0736816px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "li",
+      "className": "before:bg-dark relative items-baseline gap-2 rounded-lg bg-gray-200 px-2.5 pt-1.5 pb-2 lg:flex lg:pt-2.5 lg:pb-3 lg:before:size-2 lg:before:shrink-0 lg:before:-translate-y-[20%] lg:before:rounded-full",
+      "text": "UX/UI Delivery",
+      "fontSize": "14.7363px",
+      "fontWeight": "400",
+      "lineHeight": "18.4204px",
+      "letterSpacing": "0.0736816px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "li",
+      "className": "before:bg-dark relative items-baseline gap-2 rounded-lg bg-gray-200 px-2.5 pt-1.5 pb-2 lg:flex lg:pt-2.5 lg:pb-3 lg:before:size-2 lg:before:shrink-0 lg:before:-translate-y-[20%] lg:before:rounded-full",
+      "text": "Process Optimization",
+      "fontSize": "14.7363px",
+      "fontWeight": "400",
+      "lineHeight": "18.4204px",
+      "letterSpacing": "0.0736816px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "li",
+      "className": "before:bg-dark relative items-baseline gap-2 rounded-lg bg-gray-200 px-2.5 pt-1.5 pb-2 lg:flex lg:pt-2.5 lg:pb-3 lg:before:size-2 lg:before:shrink-0 lg:before:-translate-y-[20%] lg:before:rounded-full",
+      "text": "Performance & Analytics",
+      "fontSize": "14.7363px",
+      "fontWeight": "400",
+      "lineHeight": "18.4204px",
+      "letterSpacing": "0.0736816px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "li",
+      "className": "before:bg-dark relative items-baseline gap-2 rounded-lg bg-gray-200 px-2.5 pt-1.5 pb-2 lg:flex lg:pt-2.5 lg:pb-3 lg:before:size-2 lg:before:shrink-0 lg:before:-translate-y-[20%] lg:before:rounded-full",
+      "text": "Continuous Improvement",
+      "fontSize": "14.7363px",
+      "fontWeight": "400",
+      "lineHeight": "18.4204px",
+      "letterSpacing": "0.0736816px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "li",
+      "className": "before:bg-dark relative items-baseline gap-2 rounded-lg bg-gray-200 px-2.5 pt-1.5 pb-2 lg:flex lg:pt-2.5 lg:pb-3 lg:before:size-2 lg:before:shrink-0 lg:before:-translate-y-[20%] lg:before:rounded-full",
+      "text": "Change Management",
+      "fontSize": "14.7363px",
+      "fontWeight": "400",
+      "lineHeight": "18.4204px",
+      "letterSpacing": "0.0736816px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "div",
+      "className": "absolute inset-0 -z-10",
+      "text": "People work with us toDiscover Novel OpportunitiesEnvision Innovative StrategiesBuild Engaging TouchpointsElevate Delivery Capabilities",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "27.553px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "div",
+      "className": "sticky top-0 grid h-screen w-full py-20",
+      "text": "People work with us toDiscover Novel OpportunitiesEnvision Innovative StrategiesBuild Engaging TouchpointsElevate Delivery Capabilities",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "27.553px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "div",
+      "className": "mx-auto hidden w-full max-w-418 grid-cols-12 px-9 text-3xl font-medium text-white lg:grid",
+      "text": "People work with us toDiscover Novel OpportunitiesEnvision Innovative StrategiesBuild Engaging TouchpointsElevate Delivery Capabilities",
+      "fontSize": "33.4731px",
+      "fontWeight": "500",
+      "lineHeight": "39.4844px",
+      "letterSpacing": "-0.28px",
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "div",
+      "className": "col-span-5 flex h-full flex-col",
+      "text": "People work with us toDiscover Novel OpportunitiesEnvision Innovative StrategiesBuild Engaging TouchpointsElevate Delivery Capabilities",
+      "fontSize": "33.4731px",
+      "fontWeight": "500",
+      "lineHeight": "39.4844px",
+      "letterSpacing": "-0.28px",
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "div",
+      "className": "flex h-1/2 flex-col justify-end",
+      "text": "People work with us to",
+      "fontSize": "33.4731px",
+      "fontWeight": "500",
+      "lineHeight": "39.4844px",
+      "letterSpacing": "-0.28px",
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "h2",
+      "className": "text-white/50",
+      "text": "People work with us to",
+      "fontSize": "33.4731px",
+      "fontWeight": "500",
+      "lineHeight": "39.4844px",
+      "letterSpacing": "-0.28px",
+      "color": "oklab(0.999994 0.0000455678 0.0000200868 / 0.5)"
+    },
+    {
+      "tag": "div",
+      "className": "relative h-1/2",
+      "text": "Discover Novel OpportunitiesEnvision Innovative StrategiesBuild Engaging TouchpointsElevate Delivery Capabilities",
+      "fontSize": "33.4731px",
+      "fontWeight": "500",
+      "lineHeight": "39.4844px",
+      "letterSpacing": "-0.28px",
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "span",
+      "className": "absolute inset-0 transition duration-300 opacity-0",
+      "text": "Discover Novel Opportunities",
+      "fontSize": "33.4731px",
+      "fontWeight": "500",
+      "lineHeight": "39.4844px",
+      "letterSpacing": "-0.28px",
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "span",
+      "className": "absolute inset-0 transition duration-300 opacity-0",
+      "text": "Envision Innovative Strategies",
+      "fontSize": "33.4731px",
+      "fontWeight": "500",
+      "lineHeight": "39.4844px",
+      "letterSpacing": "-0.28px",
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "span",
+      "className": "absolute inset-0 transition duration-300 opacity-0",
+      "text": "Build Engaging Touchpoints",
+      "fontSize": "33.4731px",
+      "fontWeight": "500",
+      "lineHeight": "39.4844px",
+      "letterSpacing": "-0.28px",
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "span",
+      "className": "absolute inset-0 transition duration-300",
+      "text": "Elevate Delivery Capabilities",
+      "fontSize": "33.4731px",
+      "fontWeight": "500",
+      "lineHeight": "39.4844px",
+      "letterSpacing": "-0.28px",
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "h2",
+      "className": "text-dark-subtle font-medium text-xl lg:text-2xl max-w-[52.25rem]",
+      "text": "Collaboration isn’t just a buzzword—it’s how we roll. We’re not here to hand off some cookie-cutter deliverable and disappear; we’re in it with you, from day one.",
+      "fontSize": "26.7373px",
+      "fontWeight": "500",
+      "lineHeight": "31.5312px",
+      "letterSpacing": "normal",
+      "color": "lab(8.93538 -0.97698 -6.5133 / 0.5)"
+    },
+    {
+      "tag": "span",
+      "className": "transition-colors duration-500 text-dark",
+      "text": "Collaboration isn’t just a buzzword—it’s how we roll.",
+      "fontSize": "26.7373px",
+      "fontWeight": "500",
+      "lineHeight": "31.5312px",
+      "letterSpacing": "normal",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "div",
+      "className": "swiper-slide swiper-slide-active max-w-[23.25rem] xl:max-w-none",
+      "text": "We’re Not Just a Vendor.We’re Your Partner in Crime.01",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "27.553px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "button",
+      "className": "group flex aspect-[1/1.23] w-full cursor-[inherit] flex-col overflow-hidden rounded-lg border border-black/5 bg-gray-100 text-left outline-offset-2 outline-black transition-all duration-300 hover:rounded-2xl",
+      "text": "We’re Not Just a Vendor.We’re Your Partner in Crime.01",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "27.553px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "span",
+      "className": "flex w-full grow flex-col justify-between px-5 py-6",
+      "text": "We’re Not Just a Vendor.We’re Your Partner in Crime.01",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "27.553px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "span",
+      "className": "font-medium [@media(min-width:1440px)]:text-lg",
+      "text": "We’re Not Just a Vendor.We’re Your Partner in Crime.",
+      "fontSize": "21.0538px",
+      "fontWeight": "500",
+      "lineHeight": "25.25px",
+      "letterSpacing": "-0.09008px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "span",
+      "className": "text-dark-very-subtle group-hover:text-dark-subtle block transition-colors",
+      "text": "We’re Not Just a Vendor.",
+      "fontSize": "21.0538px",
+      "fontWeight": "500",
+      "lineHeight": "25.25px",
+      "letterSpacing": "-0.09008px",
+      "color": "lab(8.93538 -0.97698 -6.5133 / 0.35)"
+    },
+    {
+      "tag": "span",
+      "className": "-mt-0.5 block [@media(min-width:1440px)]:mt-0.5",
+      "text": "We’re Your Partner in Crime.",
+      "fontSize": "21.0538px",
+      "fontWeight": "500",
+      "lineHeight": "25.25px",
+      "letterSpacing": "-0.09008px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "div",
+      "className": "swiper-slide swiper-slide-next max-w-[23.25rem] xl:max-w-none",
+      "text": "We Don’t Just Follow Trends.We Shape New Territories.02",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "27.553px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "button",
+      "className": "group flex aspect-[1/1.23] w-full cursor-[inherit] flex-col overflow-hidden rounded-lg border border-black/5 bg-gray-100 text-left outline-offset-2 outline-black transition-all duration-300 hover:rounded-2xl",
+      "text": "We Don’t Just Follow Trends.We Shape New Territories.02",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "27.553px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "span",
+      "className": "flex w-full grow flex-col justify-between px-5 py-6",
+      "text": "We Don’t Just Follow Trends.We Shape New Territories.02",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "27.553px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "span",
+      "className": "font-medium [@media(min-width:1440px)]:text-lg",
+      "text": "We Don’t Just Follow Trends.We Shape New Territories.",
+      "fontSize": "21.0538px",
+      "fontWeight": "500",
+      "lineHeight": "25.25px",
+      "letterSpacing": "-0.09008px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "span",
+      "className": "text-dark-very-subtle group-hover:text-dark-subtle block transition-colors",
+      "text": "We Don’t Just Follow Trends.",
+      "fontSize": "21.0538px",
+      "fontWeight": "500",
+      "lineHeight": "25.25px",
+      "letterSpacing": "-0.09008px",
+      "color": "lab(8.93538 -0.97698 -6.5133 / 0.35)"
+    },
+    {
+      "tag": "span",
+      "className": "-mt-0.5 block [@media(min-width:1440px)]:mt-0.5",
+      "text": "We Shape New Territories.",
+      "fontSize": "21.0538px",
+      "fontWeight": "500",
+      "lineHeight": "25.25px",
+      "letterSpacing": "-0.09008px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "div",
+      "className": "swiper-slide max-w-[23.25rem] xl:max-w-none",
+      "text": "We Don’t Play by the Book.We Write It Together.03",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "27.553px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "button",
+      "className": "group flex aspect-[1/1.23] w-full cursor-[inherit] flex-col overflow-hidden rounded-lg border border-black/5 bg-gray-100 text-left outline-offset-2 outline-black transition-all duration-300 hover:rounded-2xl",
+      "text": "We Don’t Play by the Book.We Write It Together.03",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "27.553px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "span",
+      "className": "flex w-full grow flex-col justify-between px-5 py-6",
+      "text": "We Don’t Play by the Book.We Write It Together.03",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "27.553px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "span",
+      "className": "font-medium [@media(min-width:1440px)]:text-lg",
+      "text": "We Don’t Play by the Book.We Write It Together.",
+      "fontSize": "21.0538px",
+      "fontWeight": "500",
+      "lineHeight": "25.25px",
+      "letterSpacing": "-0.09008px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "span",
+      "className": "text-dark-very-subtle group-hover:text-dark-subtle block transition-colors",
+      "text": "We Don’t Play by the Book.",
+      "fontSize": "21.0538px",
+      "fontWeight": "500",
+      "lineHeight": "25.25px",
+      "letterSpacing": "-0.09008px",
+      "color": "lab(8.93538 -0.97698 -6.5133 / 0.35)"
+    },
+    {
+      "tag": "span",
+      "className": "-mt-0.5 block [@media(min-width:1440px)]:mt-0.5",
+      "text": "We Write It Together.",
+      "fontSize": "21.0538px",
+      "fontWeight": "500",
+      "lineHeight": "25.25px",
+      "letterSpacing": "-0.09008px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "div",
+      "className": "swiper-slide max-w-[23.25rem] xl:max-w-none",
+      "text": "We Don’t Sell Empty Ideas.We Recommend What Actually Works.04",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "27.553px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "button",
+      "className": "group flex aspect-[1/1.23] w-full cursor-[inherit] flex-col overflow-hidden rounded-lg border border-black/5 bg-gray-100 text-left outline-offset-2 outline-black transition-all duration-300 hover:rounded-2xl",
+      "text": "We Don’t Sell Empty Ideas.We Recommend What Actually Works.04",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "27.553px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "span",
+      "className": "flex w-full grow flex-col justify-between px-5 py-6",
+      "text": "We Don’t Sell Empty Ideas.We Recommend What Actually Works.04",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "27.553px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "span",
+      "className": "font-medium [@media(min-width:1440px)]:text-lg",
+      "text": "We Don’t Sell Empty Ideas.We Recommend What Actually Works.",
+      "fontSize": "21.0538px",
+      "fontWeight": "500",
+      "lineHeight": "25.25px",
+      "letterSpacing": "-0.09008px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "span",
+      "className": "text-dark-very-subtle group-hover:text-dark-subtle block transition-colors",
+      "text": "We Don’t Sell Empty Ideas.",
+      "fontSize": "21.0538px",
+      "fontWeight": "500",
+      "lineHeight": "25.25px",
+      "letterSpacing": "-0.09008px",
+      "color": "lab(8.93538 -0.97698 -6.5133 / 0.35)"
+    },
+    {
+      "tag": "span",
+      "className": "-mt-0.5 block [@media(min-width:1440px)]:mt-0.5",
+      "text": "We Recommend What Actually Works.",
+      "fontSize": "21.0538px",
+      "fontWeight": "500",
+      "lineHeight": "25.25px",
+      "letterSpacing": "-0.09008px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "div",
+      "className": "swiper-slide max-w-[23.25rem] xl:max-w-none",
+      "text": "We Don’t Overstrategize.We Keep It Efficient & Real.05",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "27.553px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "button",
+      "className": "group flex aspect-[1/1.23] w-full cursor-[inherit] flex-col overflow-hidden rounded-lg border border-black/5 bg-gray-100 text-left outline-offset-2 outline-black transition-all duration-300 hover:rounded-2xl",
+      "text": "We Don’t Overstrategize.We Keep It Efficient & Real.05",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "27.553px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "span",
+      "className": "flex w-full grow flex-col justify-between px-5 py-6",
+      "text": "We Don’t Overstrategize.We Keep It Efficient & Real.05",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "27.553px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "span",
+      "className": "font-medium [@media(min-width:1440px)]:text-lg",
+      "text": "We Don’t Overstrategize.We Keep It Efficient & Real.",
+      "fontSize": "21.0538px",
+      "fontWeight": "500",
+      "lineHeight": "25.25px",
+      "letterSpacing": "-0.09008px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "span",
+      "className": "text-dark-very-subtle group-hover:text-dark-subtle block transition-colors",
+      "text": "We Don’t Overstrategize.",
+      "fontSize": "21.0538px",
+      "fontWeight": "500",
+      "lineHeight": "25.25px",
+      "letterSpacing": "-0.09008px",
+      "color": "lab(8.93538 -0.97698 -6.5133 / 0.35)"
+    },
+    {
+      "tag": "span",
+      "className": "-mt-0.5 block [@media(min-width:1440px)]:mt-0.5",
+      "text": "We Keep It Efficient & Real.",
+      "fontSize": "21.0538px",
+      "fontWeight": "500",
+      "lineHeight": "25.25px",
+      "letterSpacing": "-0.09008px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "div",
+      "className": "swiper-slide max-w-[23.25rem] xl:max-w-none",
+      "text": "We Don’t Rush.We Build for the Long Haul.06",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "27.553px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "button",
+      "className": "group flex aspect-[1/1.23] w-full cursor-[inherit] flex-col overflow-hidden rounded-lg border border-black/5 bg-gray-100 text-left outline-offset-2 outline-black transition-all duration-300 hover:rounded-2xl",
+      "text": "We Don’t Rush.We Build for the Long Haul.06",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "27.553px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "span",
+      "className": "flex w-full grow flex-col justify-between px-5 py-6",
+      "text": "We Don’t Rush.We Build for the Long Haul.06",
+      "fontSize": "18.3686px",
+      "fontWeight": "400",
+      "lineHeight": "27.553px",
+      "letterSpacing": "0.093312px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "span",
+      "className": "font-medium [@media(min-width:1440px)]:text-lg",
+      "text": "We Don’t Rush.We Build for the Long Haul.",
+      "fontSize": "21.0538px",
+      "fontWeight": "500",
+      "lineHeight": "25.25px",
+      "letterSpacing": "-0.09008px",
+      "color": "lab(8.93538 -0.97698 -6.5133)"
+    },
+    {
+      "tag": "span",
+      "className": "text-dark-very-subtle group-hover:text-dark-subtle block transition-colors",
+      "text": "We Don’t Rush.",
+      "fontSize": "21.0538px",
+      "fontWeight": "500",
+      "lineHeight": "25.25px",
+      "letterSpacing": "-0.09008px",
+      "color": "lab(8.93538 -0.97698 -6.5133 / 0.35)"
+    }
+  ],
+  "animLibs": {
+    "gsap": false,
+    "three": false,
+    "lenis": false,
+    "lottie": false,
+    "motion": false
+  },
+  "components": {
+    "header": {
+      "selector": "header",
+      "html": "<header class=\"bg-darker relative h-[calc(100svh-6.75rem)] md:h-[85vh] md:min-h-180\"><div class=\"mx-auto w-full max-w-[104.5rem] px-4 sm:px-16 md:px-9 relative z-20 flex h-full items-center justify-between\"><img alt=\"DAYY® Logo\" loading=\"lazy\" width=\"100\" height=\"27\" decoding=\"async\" data-nimg=\"1\" style=\"color:transparent\"><div class=\"text-right text-xs text-white sm:text-base\"><p>Let’s rethink tomorrow</p><p class=\"-mt-1 text-white/50\">Strategy. Design. Technology.</p></div></div><div class=\"after:animate-grain after:bg-grain absolute inset-0 overflow-hidden transition-opacity duration-1000 after:absolute after:top-0 after:left-0 after:size-[140%] after:opacity-5\"><video class=\"size-full object-cover md:hidden\" autoplay=\"\" loop=\"\" muted=\"\" playsinline=\"\"></video><video class=\"hidden size-full object-cover md:block\" autoplay=\"\" loop=\"\" muted=\"\" playsinline=\"\"></video></div></header>"
+    },
+    "hero": {
+      "selector": "main section",
+      "html": "<section class=\"mx-auto w-full max-w-[104.5rem] px-4 sm:px-16 md:px-9 shrink-0\"><h1 class=\"text-dark-subtle font-medium text-2xl lg:text-3xl max-w-[52.25rem]\"><span class=\"transition-colors duration-500 text-dark\">Your 0 to 1 Partner for Digital Innovation.</span>\nBlending consultancy expertise with agency craft and creativity, we lead ambitious companies from insight to impact—fast.</h1><div class=\"mt-7 md:mt-20\"><div class=\"flex gap-1.5\" style=\"transform: translateX(-2539.1px);\"><ul class=\"flex shrink-0 gap-1.5\" aria-hidden=\"false\"><li class=\"bg-dark/5 flex h-40 w-64 shrink-0 items-center justify-center rounded-xl\"><img alt=\"Isar Aerospace Logo\" loading=\"lazy\" width=\"100\" height=\"18\" decoding=\"async\" data-nimg=\"1\" class=\"h-2/5 w-3/5 object-contain\" style=\"color:transparent\"></li><li class=\"bg-dark/5 flex h-40 w-64 shrink-0 items-center justify-center rounded-xl\"><img alt=\"Spotify Logo\" loading=\"lazy\" width=\"100\" height=\"30\" decoding=\"async\" data-nimg=\"1\" class=\"h-2/5 w-3/5 object-contain\" style=\"color:transparent\"></li><li class=\"bg-dark/5 flex h-40 w-64 shrink-0 items-center justify-center rounded-xl\"><img alt=\"Red Bull Logo\" loading=\"lazy\" width=\"100\" height=\"63\" decoding=\"async\" data-nimg=\"1\" class=\"h-2/5 w-3/5 object-contain\" style=\"color:transparent\"></li><li class=\"bg-dark/5 flex h-40 w-64 shrink-0 items-center justify-center rounded-xl\"><img alt=\"Zalando Logo\" loading=\"lazy\" width=\"100\" height=\"18\" decoding=\"async\" data-nimg=\"1\" class=\"h-2/5 w-3/5 object-contain\" style=\"color:transparent\"></li><li class=\"bg-dark/5 flex h-40 w-64 shrink-0 items-center justify-center rounded-xl\"><img alt=\"REWE Logo\" loading=\"lazy\" width=\"100\" height=\"34\" decoding=\"async\" data-nimg=\"1\" class=\"h-2/5 w-3/5 object-contain\" style=\"color:transparent\"></li><li class=\"bg-dark/5 flex h-40 w-64 shrink-0 items-center justify-center rounded-xl\"><img alt=\"Allianz Logo\" loading=\"lazy\" width=\"100\" height=\"26\" decoding=\"async\" data-nimg=\"1\" class=\"h-2/5 w-3/5 object-contain\" style=\"color:transparent\"></li><li class=\"bg-dark/5 flex h-40 w-64 shrink-0 items-center justify-center rounded-xl\"><img alt=\"Volvo Logo\" loading=\"lazy\" width=\"100\" height=\"100\" decoding=\"async\" data-nimg=\"1\" class=\"h-2/5 w-3/5 object-contain\" style=\"color:transparent\"></li></ul><ul class=\"flex shrink-0 gap-1.5\" aria-hidden=\"true\"><li class=\"bg-dark/5 flex h-40 w-64 shrink-0 items-center justify-center rounded-xl\"><img alt=\"Isar Aerospace Logo\" loading=\"lazy\" width=\"100\" height=\"18\" decoding=\"async\" data-nimg=\"1\" class=\"h-2/5 w-3/5 object-contain\" style=\"color:transparent\"></li><li class=\"bg-dark/5 flex h-40 w-64 shrink-0 items-center justify-center rounded-xl\"><img alt=\"Spotify Logo\" loading=\"lazy\" width=\"100\" height=\"30\" decoding=\"async\" data-nimg=\"1\" class=\"h-2/5 w-3/5 object-contain\" style=\"color:transparent\"></li><li class=\"bg-dark/5 flex h-40 w-64 shrink-0 items-center justify-center rounded-xl\"><img alt=\"Red Bull Logo\" loading=\"lazy\" width=\"100\" height=\"63\" decoding=\"async\" data-nimg=\"1\" class=\"h-2/5 w-3/5 object-contain\" style=\"color:transparent\"></li><li class=\"bg-dark/5 flex h-40 w-64 shrink-0 items-center justify-center rounded-xl\"><img alt=\"Zalando Logo\" loading=\"lazy\" width=\"100\" height=\"18\" decoding=\"async\" data-nimg=\"1\" class=\"h-2/5 w-3/5 object-contain\" style=\"color:transparent\"></li><li class=\"bg-dark/5 flex h-40 w-64 shrink-0 items-center justify-center rounded-xl\"><img alt=\"REWE Logo\" loading=\"lazy\" width=\"100\" height=\"34\" decoding=\"async\" data-nimg=\"1\" class=\"h-2/5 w-3/5 object-contain\" style=\"color:transparent\"></li><li class=\"bg-dark/5 flex h-40 w-64 shrink-0 items-center justify-center rounded-xl\"><img alt=\"Allianz Logo\" loading=\"lazy\" width=\"100\" height=\"26\" decoding=\"async\" data-nimg=\"1\" class=\"h-2/5 w-3/5 object-contain\" style=\"color:transparent\"></li><li class=\"bg-dark/5 flex h-40 w-64 shrink-0 items-center justify-center rounded-xl\"><img alt=\"Volvo Logo\" loading=\"lazy\" width=\"100\" height=\"100\" decoding=\"async\" data-nimg=\"1\" class=\"h-2/5 w-3/5 object-contain\" style=\"color:transparent\"></li></ul><ul class=\"flex shrink-0 gap-1.5\" aria-hidden=\"true\"><li class=\"bg-dark/5 flex h-40 w-64 shrink-0 items-center justify-center rounded-xl\"><img alt=\"Isar Aerospace Logo\" loading=\"lazy\" width=\"100\" height=\"18\" decoding=\"async\" data-nimg=\"1\" class=\"h-2/5 w-3/5 object-contain\" style=\"color:transparent\"></li><li class=\"bg-dark/5 flex h-40 w-64 shrink-0 items-center justify-center rounded-xl\"><img alt=\"Spotify Logo\" loading=\"lazy\" width=\"100\" height=\"30\" decoding=\"async\" data-nimg=\"1\" class=\"h-2/5 w-3/5 object-contain\" style=\"color:transparent\"></li><li class=\"bg-dark/5 flex h-40 w-64 shrink-0 items-center justify-center rounded-xl\"><img alt=\"Red Bull Logo\" loading=\"lazy\" width=\"100\" height=\"63\" decoding=\"async\" data-nimg=\"1\" class=\"h-2/5 w-3/5 object-contain\" style=\"color:transparent\"></li><li class=\"bg-dark/5 flex h-40 w-64 shrink-0 items-center justify-center rounded-xl\"><img alt=\"Zalando Logo\" loading=\"lazy\" width=\"100\" height=\"18\" decoding=\"async"
+    },
+    "cards": {
+      "selector": "[class*='card']",
+      "html": "<div class=\"mt-8 lg:col-start-2 lg:mt-0 lg:h-(--card-height)\" data-service-card=\"true\" style=\"transform: translateY(-64px) scale(0.92); opacity: 1;\"><div class=\"overflow-hidden rounded-lg bg-white px-4 pt-5 lg:max-w-170 lg:rounded-xl lg:pt-8\"><div class=\"-mb-3 px-5 lg:px-14\" style=\"opacity: 1;\"><div class=\"overflow-hidden\" data-vimeo-initialized=\"true\"><div style=\"padding:41.84% 0 0 0;position:relative;\"><iframe src=\"https://player.vimeo.com/video/1184110361?autopause=0&amp;dnt=1&amp;loop=1&amp;background=1&amp;app_id=122963\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" style=\"position:absolute;top:0;left:0;width:100%;height:100%;\" title=\"Service Animation 1\" data-ready=\"true\"></iframe></div></div></div><div class=\"p-5 pt-7 lg:px-14 lg:py-12 lg:[@media(max-height:910px)]:py-8\"><p class=\"text-md leading-tight lg:max-w-145\">The right problem is the one worth solving. We quickly uncover actionable opportunities through data and business insights, ensuring that every discovery is grounded in what matters most for your business and your users.  </p><p id=\"service-list-title-7cd5b1ce2022\" class=\"mono-text text-dark/80 mt-11 font-mono leading-tight lg:[@media(max-height:910px)]:mt-8\">Our Capabilities</p><ul class=\"mt-3.5 grid grid-cols-2 gap-1.5 text-xs leading-tight lg:gap-2 lg:[@media(max-height:910px)]:mt-2\" aria-labelledby=\"service-list-title-7cd5b1ce2022\"><li class=\"before:bg-dark relative items-baseline gap-2 rounded-lg bg-gray-200 px-2.5 pt-1.5 pb-2 lg:flex lg:pt-2.5 lg:pb-3 lg:before:size-2 lg:before:shrink-0 lg:before:-translate-y-[20%] lg:before:rounded-full\">Business &amp; Market Research</li><li class=\"before:bg-dark relative items-baseline gap-2 rounded-lg bg-gray-200 px-2.5 pt-1.5 pb-2 lg:flex lg:pt-2.5 lg:pb-3 lg:before:size-2 lg:before:shrink-0 lg:before:-translate-y-[20%] lg:before:rounded-full\">Data-Driven Insights</li><li class=\"before:bg-dark relative items-baseline gap-2 rounded-lg bg-gray-200 px-2.5 pt-1.5 pb-2 lg:flex lg:pt-2.5 lg:pb-3 lg:before:size-2 lg:before:shrink-0 lg:before:-translate-y-[20%] lg:before:rounded-full\">UX Audits</li><li class=\"before:bg-dark relative items-baseline gap-2 rounded-lg bg-gray-200 px-2.5 pt-1.5 pb-2 lg:flex lg:pt-2.5 lg:pb-3 lg:before:size-2 lg:before:shrink-0 lg:before:-translate-y-[20%] lg:before:rounded-full\">Customer Journey Mapping</li><li class=\"before:bg-dark relative items-baseline gap-2 rounded-lg bg-gray-200 px-2.5 pt-1.5 pb-2 lg:flex lg:pt-2.5 lg:pb-3 lg:before:size-2 lg:before:shrink-0 lg:before:-translate-y-[20%] lg:before:rounded-full\">Brand Perception Analysis</li><li class=\"before:bg-dark relative items-baseline gap-2 rounded-lg bg-gray-200 px-2.5 pt-1.5 pb-2 lg:flex lg:pt-2.5 lg:pb-3 lg:before:size-2 lg:before:shrink-0 lg:before:-translate-y-[20%] lg:before:rounded-full\">Technical Assessment</li></ul></div></div></div>"
+    },
+    "footer": {
+      "selector": "footer",
+      "html": "<footer class=\"mx-auto w-full max-w-[104.5rem] px-4 sm:px-16 md:px-9 mono-text gapy-10 flex flex-col justify-between gap-x-20 pt-16 pb-32 font-mono md:aspect-video\"><div class=\"grid gap-x-1.5 gap-y-10 md:grid-cols-4\"><div><img alt=\"DAYY® Logo\" loading=\"lazy\" width=\"88\" height=\"24\" decoding=\"async\" data-nimg=\"1\" style=\"color:transparent\"></div><div class=\"grid grid-cols-2 sm:grid-cols-3 md:block md:space-y-6\"><address class=\"not-italic\"><span class=\"flex min-h-6 items-center\">CGN Office</span><span class=\"text-dark-subtle block\">Brüsseler Str. 92</span><span class=\"text-dark-subtle block\">50672 Köln</span><span class=\"text-dark-subtle block\">Germany</span></address></div><nav class=\"grid grid-cols-2 sm:grid-cols-3 md:block md:space-y-6\"><ul><li><a class=\"inline-flex min-h-6 items-center outline-offset-2 outline-black hover:underline\" href=\"https://www.instagram.com/dayy/\" target=\"_blank\" rel=\"noopener noreferrer\">Instagram</a></li><li><a class=\"inline-flex min-h-6 items-center outline-offset-2 outline-black hover:underline\" href=\"https://x.com/dayy\" target=\"_blank\" rel=\"noopener noreferrer\">Twitter / X</a></li><li><a class=\"inline-flex min-h-6 items-center outline-offset-2 outline-black hover:underline\" href=\"https://de.linkedin.com/company/dayy\" target=\"_blank\" rel=\"noopener noreferrer\">LinkedIn</a></li></ul><ul><li><a class=\"text-dark-subtle hover:text-dark inline-flex min-h-6 items-center outline-offset-2 outline-black hover:underline\" href=\"/en/privacy-policy\">Datenschutzerklärung</a></li><li><a class=\"text-dark-subtle hover:text-dark inline-flex min-h-6 items-center outline-offset-2 outline-black hover:underline\" href=\"/en/imprint\">Impressum</a></li><li><a class=\"text-dark-subtle hover:text-dark inline-flex min-h-6 items-center outline-offset-2 outline-black hover:underline\" href=\"/en/terms-and-conditions\">AGB</a></li></ul></nav><div><p><a class=\"inline-flex min-h-6 items-center outline-offset-2 outline-black hover:underline\" href=\"mailto:info@dayy.com\">info@dayy.com</a></p><p>DAYY GmbH</p><p class=\"text-dark-subtle\">2026<!-- --> <!-- -->All rights reserved</p></div></div><img alt=\"Let’s rethink tomorrow\" loading=\"lazy\" width=\"1000\" height=\"56\" decoding=\"async\" data-nimg=\"1\" class=\"pointer-events-none mt-20 w-full selection:bg-transparent\" style=\"color:transparent\"></footer>"
+    },
+    "button": {
+      "selector": "button",
+      "html": "<button class=\"group flex aspect-[1/1.23] w-full cursor-[inherit] flex-col overflow-hidden rounded-lg border border-black/5 bg-gray-100 text-left outline-offset-2 outline-black transition-all duration-300 hover:rounded-2xl\" type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"_R_66adlfiqivb_\"><span class=\"block w-full overflow-hidden\"><span class=\"block overflow-hidden ease-in-out-quart transition-transform duration-300 motion-safe:group-hover:scale-102 motion-safe:group-focus-visible:scale-102\" style=\"aspect-ratio:2000/1414\"><span class=\"block h-[113%]\" style=\"transform: none;\"><img alt=\"Two people are standing indoors near large windows, one wearing a brown jacket and the other in dark clothing, engaged in conversation\" loading=\"lazy\" width=\"2000\" height=\"1414\" decoding=\"async\" data-nimg=\"1\" class=\"size-full object-cover\" style=\"color: transparent;\" sizes=\"23.25rem\"></span></span></span><span class=\"flex w-full grow flex-col justify-between px-5 py-6\"><span class=\"font-medium [@media(min-width:1440px)]:text-lg\"><span class=\"text-dark-very-subtle group-hover:text-dark-subtle block transition-colors\">We’re Not Just a Vendor.</span><span class=\"-mt-0.5 block [@media(min-width:1440px)]:mt-0.5\">We’re Your Partner in Crime.</span></span><span class=\"flex cursor-pointer justify-between\"><span class=\"mono-text text-dark/50 group-hover:text-dark group-focus-visible:text-dark font-mono\">0<!-- -->1</span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"10\" height=\"10\" viewBox=\"0 0 10 10\" fill=\"currentColor\"><path d=\"M4.07,10v-4.07H0v-1.89h4.07V0h1.89v4.04h4.04v1.89h-4.04v4.07h-1.89Z\"></path></svg></span></span></button>"
+    }
+  }
+}

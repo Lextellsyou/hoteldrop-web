@@ -38,6 +38,6 @@ PLAYWRIGHT_NODE_MODULES=/path/to/node_modules node tests/visual-check.mjs
 上线前建议替换：
 
 - 小程序码
-- 商务电话或微信
+- 正式商务邮箱或联系入口
 - 备案号
 - 正式合作留资接口

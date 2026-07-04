@@ -15,12 +15,18 @@ async function inspectViewport(name, width, height) {
     const header = document.querySelector(".site-header").getBoundingClientRect();
     const floatingNav = document.querySelector(".floating-nav").getBoundingClientRect();
     const statement = document.querySelector(".statement-section h1").getBoundingClientRect();
+    const rail = document.querySelector(".signal-rail");
+    const railBox = rail.getBoundingClientRect();
+    const railStyle = getComputedStyle(rail);
+    const railContentWidth =
+      railBox.width - parseFloat(railStyle.paddingLeft) - parseFloat(railStyle.paddingRight);
     return {
       innerWidth,
       bodyWidth: document.body.scrollWidth,
       headerHeight: Math.round(header.height),
       floatingNavWidth: Math.round(floatingNav.width),
-      statementWidth: Math.round(statement.width)
+      statementWidth: Math.round(statement.width),
+      contentWidth: Math.round(railContentWidth)
     };
   });
   await page.screenshot({ path: `tmp-${name}.png`, fullPage: true });
@@ -29,11 +35,12 @@ async function inspectViewport(name, width, height) {
 }
 
 const desktop = await inspectViewport("desktop", 1440, 1000);
+const wide = await inspectViewport("wide", 2560, 1000);
 const mobile = await inspectViewport("mobile", 390, 844);
 
 await browser.close();
 
-console.log(JSON.stringify({ desktop, mobile }, null, 2));
+console.log(JSON.stringify({ desktop, wide, mobile }, null, 2));
 
 if (desktop.bodyWidth > desktop.innerWidth) {
   throw new Error("Desktop has horizontal overflow");
@@ -41,6 +48,14 @@ if (desktop.bodyWidth > desktop.innerWidth) {
 
 if (mobile.bodyWidth > mobile.innerWidth) {
   throw new Error("Mobile has horizontal overflow");
+}
+
+if (wide.bodyWidth > wide.innerWidth) {
+  throw new Error("Wide viewport has horizontal overflow");
+}
+
+if (wide.contentWidth > 1682) {
+  throw new Error("Wide viewport content exceeds 1680px");
 }
 
 if (mobile.floatingNavWidth < 220) {

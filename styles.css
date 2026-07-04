@@ -14,6 +14,8 @@
   --radius-md: 12px;
   --radius-pill: 999px;
   --page-x: clamp(24px, 4.5vw, 64px);
+  --content-max: 1680px;
+  --content-gutter: max(var(--page-x), calc((100vw - var(--content-max)) / 2));
   --section-y: clamp(84px, 12vw, 176px);
   --tile-pad: clamp(20px, 3vw, 44px);
   --ease: cubic-bezier(0.4, 0, 0.2, 1);
@@ -145,7 +147,7 @@ img {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  padding: 28px var(--page-x);
+  padding: 28px var(--content-gutter);
 }
 
 .brand-lockup {
@@ -177,8 +179,8 @@ img {
 
 .hero-copy {
   position: absolute;
-  left: var(--page-x);
-  right: var(--page-x);
+  left: var(--content-gutter);
+  right: var(--content-gutter);
   bottom: clamp(88px, 11vw, 156px);
 }
 
@@ -192,7 +194,7 @@ img {
 
 .hero-note {
   position: absolute;
-  right: var(--page-x);
+  right: var(--content-gutter);
   top: 41%;
   max-width: 320px;
   text-align: right;
@@ -200,7 +202,7 @@ img {
 }
 
 .statement-section {
-  padding: clamp(48px, 8vw, 112px) var(--page-x) var(--section-y);
+  padding: clamp(48px, 8vw, 112px) var(--content-gutter) var(--section-y);
 }
 
 .statement-section h1,
@@ -227,7 +229,7 @@ img {
   grid-template-columns: repeat(4, minmax(260px, 1fr));
   gap: 8px;
   overflow-x: auto;
-  padding: 0 var(--page-x) var(--section-y);
+  padding: 0 var(--content-gutter) var(--section-y);
   scroll-snap-type: x mandatory;
 }
 
@@ -257,7 +259,7 @@ img {
   display: grid;
   grid-template-columns: minmax(0, 1.05fr) minmax(320px, 0.75fr);
   gap: 8px;
-  padding: 0 var(--page-x) var(--section-y);
+  padding: 0 var(--content-gutter) var(--section-y);
 }
 
 .claim-copy,
@@ -288,7 +290,7 @@ img {
   display: grid;
   grid-template-columns: minmax(280px, 0.82fr) minmax(0, 1fr);
   gap: clamp(32px, 6vw, 104px);
-  padding: var(--section-y) var(--page-x);
+  padding: var(--section-y) var(--content-gutter);
   overflow: hidden;
   background:
     radial-gradient(circle at 20% 88%, rgba(255, 255, 255, 0.86), transparent 25%),
@@ -364,7 +366,7 @@ img {
 .process-section,
 .company-section,
 .contact-section {
-  padding: var(--section-y) var(--page-x);
+  padding: var(--section-y) var(--content-gutter);
 }
 
 .process-list {
@@ -404,7 +406,7 @@ img {
   display: grid;
   grid-template-columns: minmax(280px, 0.9fr) minmax(0, 1fr);
   gap: clamp(32px, 6vw, 104px);
-  margin: 0 var(--page-x);
+  margin: 0 var(--content-gutter);
   overflow: hidden;
   border-radius: var(--radius-md);
   padding: var(--section-y) var(--page-x);
@@ -490,7 +492,7 @@ img {
 }
 
 .site-footer {
-  padding: clamp(64px, 9vw, 132px) var(--page-x) 92px;
+  padding: clamp(64px, 9vw, 132px) var(--content-gutter) 92px;
 }
 
 .footer-meta {
@@ -553,7 +555,7 @@ img {
   .hero-note {
     top: auto;
     bottom: 28px;
-    left: var(--page-x);
+    left: var(--content-gutter);
     right: auto;
     text-align: left;
   }

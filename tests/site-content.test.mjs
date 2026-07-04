@@ -19,7 +19,7 @@ const allText = `${html}\n${css}\n${js}`;
 const requiredHtml = [
   "即宿科技",
   "今夜有房",
-  "西安即宿信息科技有限公司",
+  "西安即宿信息服务有限公司",
   "jisutech.space",
   "小程序码暂无",
   "酒店合作",

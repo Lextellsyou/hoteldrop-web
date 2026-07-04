@@ -30,3 +30,15 @@ chmod 755 /var/www /var/www/jisutech.space
 find /var/www/jisutech.space -type d -exec chmod 755 {} \;
 find /var/www/jisutech.space -type f -exec chmod 644 {} \;
 ```
+
+## GitHub Actions Auto Deploy
+
+The repository includes `.github/workflows/deploy.yml`.
+
+Required repository secrets:
+
+- `DEPLOY_HOST`: `118.31.109.73`
+- `DEPLOY_USER`: `jisutech-deploy`
+- `DEPLOY_SSH_KEY`: private key content for the server deploy user
+
+After these secrets are configured, every push to `main` runs `npm test` and syncs the static files to `/var/www/jisutech.space`.

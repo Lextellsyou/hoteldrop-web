@@ -10,7 +10,8 @@
 ## Files
 
 - `nginx-jisutech-local.conf`: system Nginx static site config.
-- `npm-proxy-host-3.conf`: Nginx Proxy Manager proxy host config for `jisutech.space` and `www.jisutech.space`.
+- `npm-proxy-host-8.conf`: Nginx Proxy Manager proxy host config for `jisutech.space` and `www.jisutech.space`.
+- `npm-jisutech-proxy.sql`: Nginx Proxy Manager database row for the same proxy host.
 
 ## Update Static Files
 

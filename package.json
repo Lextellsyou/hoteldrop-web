@@ -1,0 +1,10 @@
+{
+  "name": "hoteldrop-web",
+  "version": "0.1.0",
+  "private": true,
+  "description": "即宿科技与今夜有房官网",
+  "scripts": {
+    "test": "node tests/site-content.test.mjs",
+    "dev": "python3 -m http.server 4173"
+  }
+}
